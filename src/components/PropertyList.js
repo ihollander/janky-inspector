@@ -79,7 +79,7 @@ function PropertyList({
             />
           ))
         } else {
-          children = "[]"
+        children = <strong>[]</strong>
         }
       } else if (value instanceof CSSStyleDeclaration) {
         // styles
@@ -101,7 +101,7 @@ function PropertyList({
             <ul>{items}</ul>
           )
         } else {
-          children = "{}"
+          children = <strong>{"{}"}</strong>
         }
       } else if (value instanceof DOMStringMap) {
         // dataset
@@ -113,7 +113,7 @@ function PropertyList({
       } else {
         // string properties
         if (property.readOnly) {
-          children = value
+          children = <strong>{value}</strong>
         } else {
           children = (
             <input type="text" value={value} onChange={({ target }) => {

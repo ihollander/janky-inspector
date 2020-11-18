@@ -44,6 +44,10 @@ function Content({
       element.addEventListener("mouseover", handleHighlightElement)
       element.addEventListener("mouseout", handleRemoveHighlight)
 
+      if (!selectedElement) {
+        onSelectedElement(element.querySelector("div > *"))
+      }
+
       return () => {
         element.removeEventListener("click", handleSelectElement)
         element.removeEventListener("mouseover", handleHighlightElement)
