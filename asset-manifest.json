@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/janky-inspector/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/janky-inspector/static/js/main.e2f0106b.chunk.js",
+    "main.js.map": "/janky-inspector/static/js/main.e2f0106b.chunk.js.map",
+    "runtime-main.js": "/janky-inspector/static/js/runtime-main.de1f13a7.js",
+    "runtime-main.js.map": "/janky-inspector/static/js/runtime-main.de1f13a7.js.map",
+    "static/css/2.23249a66.chunk.css": "/janky-inspector/static/css/2.23249a66.chunk.css",
+    "static/js/2.0947368f.chunk.js": "/janky-inspector/static/js/2.0947368f.chunk.js",
+    "static/js/2.0947368f.chunk.js.map": "/janky-inspector/static/js/2.0947368f.chunk.js.map",
+    "index.html": "/janky-inspector/index.html",
+    "static/css/2.23249a66.chunk.css.map": "/janky-inspector/static/css/2.23249a66.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/janky-inspector/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0947368f.chunk.js.LICENSE.txt": "/janky-inspector/static/js/2.0947368f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de1f13a7.js",
+    "static/css/2.23249a66.chunk.css",
+    "static/js/2.0947368f.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.e2f0106b.chunk.js"
+  ]
+}
