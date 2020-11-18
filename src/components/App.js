@@ -21,9 +21,12 @@ const StyledMain = styled.main`
 
 const StyledContent = styled.div`
   grid-area: content;
-  cursor: pointer;
   overflow: auto;
   padding: 1rem;
+
+  > div {
+    cursor: pointer;
+  }
 `
 
 const StyledEditor = styled.div`

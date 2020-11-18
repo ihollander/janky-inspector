@@ -1,5 +1,11 @@
 export const commonDOMProperties = [
   {
+    name: "tagName",
+    readOnly: true,
+    description: "The HTML tag for the element. Will always be UPPERCASE. For example, the tagName for a <div> is 'DIV'.",
+    mdn: "https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName"
+  },
+  {
     name: "id",
     readOnly: false,
     description: "The unique identifier for the element. Useful for CSS styling and finding an element using querySelector.",
